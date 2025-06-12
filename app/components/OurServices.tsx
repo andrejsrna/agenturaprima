@@ -89,16 +89,12 @@ export default function OurServices() {
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/images/services/children-events.jpg"
+                  src="/images/services/predeti.jpg"
                   alt="Eventy pre deti"
                   fill
                   style={{ objectFit: 'cover' }}
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
-                {/* Fallback gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-pink-600/90 to-purple-800/90 flex items-center justify-center">
-                  <span className="text-white text-6xl">🎭</span>
-                </div>
                 
                 {/* Overlay with number */}
                 <div className="absolute top-6 left-6 w-12 h-12 bg-pink-500/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20">
@@ -136,16 +132,12 @@ export default function OurServices() {
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/images/services/teambuilding.jpg"
+                  src="/images/services/teambuildingy.jpg"
                   alt="Teambuilding & šport"
                   fill
                   style={{ objectFit: 'cover' }}
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
-                {/* Fallback gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-green-600/90 to-emerald-800/90 flex items-center justify-center">
-                  <span className="text-white text-6xl">🤝</span>
-                </div>
                 
                 {/* Overlay with number */}
                 <div className="absolute top-6 left-6 w-12 h-12 bg-green-500/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20">
@@ -183,16 +175,12 @@ export default function OurServices() {
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/images/services/rental-attractions.jpg"
+                  src="/images/services/atrakcie.jpg"
                   alt="Prenájom atrakcií"
                   fill
                   style={{ objectFit: 'cover' }}
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
-                {/* Fallback gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-600/90 to-yellow-800/90 flex items-center justify-center">
-                  <span className="text-white text-6xl">📸</span>
-                </div>
                 
                 {/* Overlay with number */}
                 <div className="absolute top-6 left-6 w-12 h-12 bg-orange-500/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20">

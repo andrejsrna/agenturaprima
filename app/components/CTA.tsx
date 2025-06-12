@@ -22,7 +22,7 @@ export default function CTA() {
               {/* Contact Card 1 */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-left flex items-center gap-6 border border-white/10">
                 <Image
-                  src="/images/avatars/avatar-female.png"
+                  src="/images/user.png"
                   alt="Katarína - Projektová manažérka"
                   width={80}
                   height={80}
@@ -47,7 +47,7 @@ export default function CTA() {
               {/* Contact Card 2 */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-left flex items-center gap-6 border border-white/10">
                 <Image
-                  src="/images/avatars/avatar-male.png"
+                  src="/images/user.png"
                   alt="Peter - Technický riaditeľ"
                   width={80}
                   height={80}

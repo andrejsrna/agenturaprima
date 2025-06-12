@@ -43,16 +43,12 @@ export default function FeaturedProjects() {
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/images/projects/majself.jpg"
-                  alt="Majself - interaktívna divadelná show"
+                  src="/images/services/majself/majself.jpg"
+                  alt="Majself - spevák a rapper"
                   fill
                   style={{ objectFit: 'cover' }}
                   className="group-hover:scale-110 transition-transform duration-700"
                 />
-                {/* Fallback gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600/90 to-pink-800/90 flex items-center justify-center">
-                  <span className="text-white text-7xl">🎭</span>
-                </div>
                 
                 {/* Overlay effects */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -73,7 +69,7 @@ export default function FeaturedProjects() {
                 <div className="flex gap-2 overflow-x-auto">
                   <div className="flex-shrink-0 w-16 h-12 bg-purple-100 rounded-lg overflow-hidden">
                     <Image
-                      src="/images/projects/majself-1.jpg"
+                      src="/images/services/majself/majself2.jpg"
                       alt="Majself gallery 1"
                       width={64}
                       height={48}
@@ -83,7 +79,7 @@ export default function FeaturedProjects() {
                   </div>
                   <div className="flex-shrink-0 w-16 h-12 bg-purple-100 rounded-lg overflow-hidden">
                     <Image
-                      src="/images/projects/majself-2.jpg"
+                      src="/images/services/majself/majself3.jpg"
                       alt="Majself gallery 2"
                       width={64}
                       height={48}
@@ -93,7 +89,7 @@ export default function FeaturedProjects() {
                   </div>
                   <div className="flex-shrink-0 w-16 h-12 bg-purple-100 rounded-lg overflow-hidden">
                     <Image
-                      src="/images/projects/majself-3.jpg"
+                      src="/images/services/majself/majself4.jpg"
                       alt="Majself gallery 3"
                       width={64}
                       height={48}
@@ -113,10 +109,10 @@ export default function FeaturedProjects() {
                   Majself
                 </h3>
                 <p className="text-purple-600 text-sm uppercase tracking-wider mb-3 font-[family-name:var(--font-sans)]">
-                  Interaktívna divadelná show
+                  Spevák a rapper
                 </p>
                 <p className="text-gray-600 text-base leading-relaxed mb-6 font-[family-name:var(--font-sans)]">
-                  Jedinečné divadelné predstavenie, ktoré spája moderné technológie s klasickým divadlom a vytvára nezabudnuteľný zážitok pre divákov.
+                  Spevák a rapper, ktorý vie spájať hudbu a emócie a vytvárať nezabudnuteľné zážitky pre divákov.
                 </p>
                 
                 {/* CTA Button */}
@@ -134,17 +130,12 @@ export default function FeaturedProjects() {
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/images/projects/minimax.jpg"
+                  src="/images/services/minimax/minimax.jpg"
                   alt="Minimax - rodinné podujatia pre malé deti"
                   fill
                   style={{ objectFit: 'cover' }}
                   className="group-hover:scale-110 transition-transform duration-700"
                 />
-                {/* Fallback gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/90 to-cyan-800/90 flex items-center justify-center">
-                  <span className="text-white text-7xl">👶</span>
-                </div>
-                
                 {/* Overlay effects */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
@@ -159,57 +150,16 @@ export default function FeaturedProjects() {
                 </div>
               </div>
               
-              {/* Photo Gallery Preview */}
-              <div className="px-6 pt-4">
-                <div className="flex gap-2 overflow-x-auto">
-                  <div className="flex-shrink-0 w-16 h-12 bg-blue-100 rounded-lg overflow-hidden">
-                    <Image
-                      src="/images/projects/minimax-1.jpg"
-                      alt="Minimax gallery 1"
-                      width={64}
-                      height={48}
-                      style={{ objectFit: 'cover' }}
-                      className="w-full h-full hover:scale-110 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="flex-shrink-0 w-16 h-12 bg-blue-100 rounded-lg overflow-hidden">
-                    <Image
-                      src="/images/projects/minimax-2.jpg"
-                      alt="Minimax gallery 2"
-                      width={64}
-                      height={48}
-                      style={{ objectFit: 'cover' }}
-                      className="w-full h-full hover:scale-110 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="flex-shrink-0 w-16 h-12 bg-blue-100 rounded-lg overflow-hidden">
-                    <Image
-                      src="/images/projects/minimax-3.jpg"
-                      alt="Minimax gallery 3"
-                      width={64}
-                      height={48}
-                      style={{ objectFit: 'cover' }}
-                      className="w-full h-full hover:scale-110 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="flex-shrink-0 w-16 h-12 bg-blue-100 rounded-lg flex items-center justify-center border-2 border-dashed border-blue-300">
-                    <span className="text-blue-500 text-xs font-semibold">+8</span>
-                  </div>
-                </div>
-              </div>
-              
               {/* Content */}
               <div className="p-6 pt-4">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 font-heading group-hover:text-blue-600 transition-colors duration-300">
                   Minimax
                 </h3>
                 <p className="text-blue-600 text-sm uppercase tracking-wider mb-3 font-[family-name:var(--font-sans)]">
-                  Rodinné podujatia pre malé deti
+                  Živé predstavenie
                 </p>
                 <p className="text-gray-600 text-base leading-relaxed mb-6 font-[family-name:var(--font-sans)]">
-                  Séria rodinných eventov špeciálne navrhnutých pre najmenších. Interaktívne programy plné zábavy, hier a vzdelávania.
-                </p>
-                
+                  Detská televízia Minimax patrí k najsledovanejším televíziám, ktoré sú určené detskému divákovi. Ponúka bezpečné a zábavné prostredie plné rozprávok, príbehov a zvieratiek.                 </p>
                 {/* CTA Button */}
                 <Link href="/projekty/minimax" className="group/btn inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 font-heading">
                   <span>Zobraziť viac</span>

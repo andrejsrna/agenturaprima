@@ -12,29 +12,29 @@ const testimonials = [
     quote: "Spolupráca s Agentúrou Prima bola pre nás kľúčová. Ich kreatívny prístup a profesionálny tím nám pomohli zorganizovať najlepšiu firemnú akciu v histórii našej firmy. Všetko prebehlo hladko a naši zamestnanci boli nadšení.",
     name: "Jana Nováková",
     title: "HR Manažérka, TechCorp",
-    imgSrc: "/images/testimonials/avatar1.jpg",
+    imgSrc: "/images/user.png",
   },
   {
     quote: "Vďaka Agentúre Prima sa náš detský festival stal nezabudnuteľným zážitkom. Program bol skvele pripravený, plný zábavy a interaktívnych prvkov. Deti aj rodičia odchádzali s úsmevom na tvári. Určite odporúčame!",
     name: "Martin Veselý",
     title: "Organizátor, Mesto Hrádok",
-    imgSrc: "/images/testimonials/avatar2.jpg",
+    imgSrc: "/images/user.png",
   },
   {
     quote: "Potrebovali sme zabezpečiť komplexné technické riešenie pre našu konferenciu a Agentúra Prima to zvládla na jednotku. Zvuk, osvetlenie, projekcie - všetko fungovalo bezchybne. Ich tím je skutočne spoľahlivý.",
     name: "Peter Kováč",
     title: "CEO, InnovateX",
-    imgSrc: "/images/testimonials/avatar3.jpg",
+    imgSrc: "/images/user.png",
   },
 ];
 
 const clientLogos = [
-  { src: "/images/clients/logo1.svg", alt: "Client Logo 1" },
-  { src: "/images/clients/logo2.svg", alt: "Client Logo 2" },
-  { src: "/images/clients/logo3.svg", alt: "Client Logo 3" },
-  { src: "/images/clients/logo4.svg", alt: "Client Logo 4" },
-  { src: "/images/clients/logo5.svg", alt: "Client Logo 5" },
-  { src: "/images/clients/logo6.svg", alt: "Client Logo 6" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 1" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 2" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 3" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 4" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 5" },
+  { src: "/images/logos/logo-zsr-1.jpg", alt: "Client Logo 6" },
 ];
 
 export default function Testimonials() {
@@ -72,7 +72,7 @@ export default function Testimonials() {
 
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex">
+            <div className="flex py-4">
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="flex-[0_0_100%] min-w-0 px-4">
                   <div className="bg-white/60 backdrop-blur-md rounded-3xl shadow-lg p-8 lg:p-12 border border-white/50 text-center">
