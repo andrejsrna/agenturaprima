@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
+
+export const runtime = "edge";
+
 import Header from "./components/Header";
 import { ModalProvider } from "./context/ModalContext";
 import InquiryModal from "./components/InquiryModal";
